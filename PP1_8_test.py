@@ -88,7 +88,7 @@ def test_q5_1(capsys):
 
 	PP1_8.q5()
 	captured = capsys.readouterr()
-	assert captured.out == "Enter an integer: The integer 3 is False\n"
+	assert captured.out == "Enter an integer: The integer 3 is False.\n"
 
 def test_q1_2(capsys):
 
@@ -176,7 +176,7 @@ def test_q5_2(capsys):
 
 	PP1_8.q5()
 	captured = capsys.readouterr()
-	assert captured.out == "Enter an integer: The integer -3 is False\n"
+	assert captured.out == "Enter an integer: The integer -3 is False.\n"
 
 def test_q1_3(capsys):
 
@@ -264,7 +264,7 @@ def test_q5_3(capsys):
 
 	PP1_8.q5()
 	captured = capsys.readouterr()
-	assert captured.out == "Enter an integer: The integer 6 is True\n"
+	assert captured.out == "Enter an integer: The integer 6 is True.\n"
 
 def test_q1_4(capsys):
 
@@ -352,7 +352,7 @@ def test_q5_4(capsys):
 
 	PP1_8.q5()
 	captured = capsys.readouterr()
-	assert captured.out == "Enter an integer: The integer 0 is True\n"
+	assert captured.out == "Enter an integer: The integer 0 is True.\n"
 
 def test_q1_5(capsys):
 
@@ -440,5 +440,5 @@ def test_q5_5(capsys):
 
 	PP1_8.q5()
 	captured = capsys.readouterr()
-	assert captured.out == "Enter an integer: The integer -2 is True\n"
+	assert captured.out == "Enter an integer: The integer -2 is True.\n"
 
