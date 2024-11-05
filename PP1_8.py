@@ -1,5 +1,7 @@
 
 def q1():
+  bool1 = True
+  bool2 = False
   #Write Assignment code here
 
 def q2():
